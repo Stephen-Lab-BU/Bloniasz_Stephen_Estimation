@@ -1,0 +1,372 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# UV
+#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#uv.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+#poetry.toml
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
+#   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
+#pdm.lock
+#pdm.toml
+.pdm-python
+.pdm-build/
+
+# pixi
+#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
+#pixi.lock
+#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
+#   in the .venv directory. It is recommended not to include this directory in version control.
+.pixi
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+# Abstra
+# Abstra is an AI-powered process automation framework.
+# Ignore directories containing user credentials, local state, and settings.
+# Learn more at https://abstra.io/docs
+.abstra/
+
+# Visual Studio Code
+#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
+#  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
+#  you could uncomment the following to ignore the entire vscode folder
+# .vscode/
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+
+# Cursor
+#  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
+#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
+#  refer to https://docs.cursor.com/context/ignore-files
+.cursorignore
+.cursorindexingignore
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+.DS_Store
+bias_demonstration_with_plots.py
+bias_demonstration.py
+Data/InputData/Metadata/DataSourcesGuide.md
+Output/.DS_Store
+Output/CombinedCode/combined_attached_figure_scripts_20260526_232334.txt
+Output/Results/.DS_Store
+Output/Results/FiguresIntermediate/.DS_Store
+Output/Results/FiguresIntermediate/Aux_Figure_Broadband_Slope_Grouped_CVLL/.DS_Store
+Output/Results/FiguresIntermediate/Aux_Figure_Broadband_Slope_Grouped_CVLL/Figure_output/.DS_Store
+Output/Results/FiguresIntermediate/Aux_Figure_Broadband_Slope_Grouped_CVLL/Figure_output/Aux_Figure_Broadband_Slope_Grouped_CVLL.plotdata.dropped_anesthesia_11_15_backup.npz
+Output/Results/FiguresIntermediate/Aux_Figure_Broadband_Slope_Grouped_CVLL/Figure_output/Aux_Figure_Broadband_Slope_Grouped_CVLL.plotdata.npz
+Output/Results/FiguresIntermediate/Aux_Figure_Broadband_Slope_Grouped_CVLL/Figure_output/Aux_Figure_Broadband_Slope_Grouped_CVLL.plotmeta.dropped_anesthesia_11_15_backup.json
+Output/Results/FiguresIntermediate/Aux_Figure_Broadband_Slope_Grouped_CVLL/Figure_output/Aux_Figure_Broadband_Slope_Grouped_CVLL.plotmeta.json
+Output/Results/FiguresIntermediate/Aux_Figure_Broadband_Slope_Grouped_CVLL/Figure_output/Aux_Figure_Broadband_Slope_Grouped_CVLL.png
+Output/Results/FiguresIntermediate/Aux_Figure_Broadband_Slope_Grouped_CVLL/Figure_output/Aux_Figure_Broadband_Slope_Grouped_CVLL.svg
+Output/Results/FiguresIntermediate/Figure_1/.DS_Store
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_1_short.png
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_1_short.row4_cbar_mt.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_1_short.row4_cbar_th.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_1_short.short.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_1_short.short.plotmeta.json
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_1_short.short.report.txt
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_1_short.short.row5_sim_params.json
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_1_short.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full_imports.full.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full_imports.full.plotmeta.json
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full_imports.full.report.txt
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full_imports.full.row5_sim_params.json
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full_imports.png
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full_imports.row4_cbar_mt.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full_imports.row4_cbar_th.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full_imports.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full.full.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full.full.plotmeta.json
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full.full.report.txt
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full.full.row5_sim_params.json
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full.methods_report.txt
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full.png
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full.row4_cbar_mt.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full.row4_cbar_th.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_full.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_short.png
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_short.row4_cbar_mt.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_short.row4_cbar_th.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_short.short.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_short.short.plotmeta.json
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_short.short.report.txt
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_short.short.row5_sim_params.json
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid_short.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid.full.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid.full.plotmeta.json
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid.full.report.txt
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid.full.row5_sim_params.json
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid.png
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid.row4_cbar_mt.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid.row4_cbar_th.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Figure_Grid.svg
+Output/Results/FiguresIntermediate/Figure_1/Figure_output/Row1_timeseries.svg
+Output/Results/FiguresIntermediate/Figure_2/Figure_output/Figure_2_config.json
+Output/Results/FiguresIntermediate/Figure_2/Figure_output/Figure_2_data.mat
+Output/Results/FiguresIntermediate/Figure_2/Figure_output/Figure_2_data.npz
+Output/Results/FiguresIntermediate/Figure_2/Figure_output/Figure_2.png
+Output/Results/FiguresIntermediate/Figure_2/Figure_output/Figure_2.svg
+Output/Results/FiguresIntermediate/Figure_3_CV/.DS_Store
+Output/Results/FiguresIntermediate/Figure_3_CV/Figure_3_CVLL_Lines.png
+Output/Results/FiguresIntermediate/Figure_3_CV/Figure_3_CVLL_Lines.svg
+Output/Results/FiguresIntermediate/Figure_3_FinalContinuousFunctionalPeak/Figure_3_FinalContinuousFunctionalPeak_additive_continuous_cf_values.csv
+Output/Results/FiguresIntermediate/Figure_3_FinalContinuousFunctionalPeak/Figure_3_FinalContinuousFunctionalPeak_additive_v8_median_A_height_bsigma5_seedonce_continuous_functional_peak.metrics.csv
+Output/Results/FiguresIntermediate/Figure_3_FinalContinuousFunctionalPeak/Figure_3_FinalContinuousFunctionalPeak_additive_v8_median_A_height_bsigma5_seedonce_continuous_functional_peak.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_3_FinalContinuousFunctionalPeak/Figure_3_FinalContinuousFunctionalPeak_additive.png
+Output/Results/FiguresIntermediate/Figure_3_FinalContinuousFunctionalPeak/Figure_3_FinalContinuousFunctionalPeak_additive.svg
+Output/Results/FiguresIntermediate/Figure_3_FinalContinuousFunctionalPeak/Figure_3_FinalContinuousFunctionalPeak_multiplicative_continuous_cf_values.csv
+Output/Results/FiguresIntermediate/Figure_3_FinalContinuousFunctionalPeak/Figure_3_FinalContinuousFunctionalPeak_multiplicative_v8_median_A_height_bsigma5_seedonce_continuous_functional_peak.metrics.csv
+Output/Results/FiguresIntermediate/Figure_3_FinalContinuousFunctionalPeak/Figure_3_FinalContinuousFunctionalPeak_multiplicative_v8_median_A_height_bsigma5_seedonce_continuous_functional_peak.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_3_FinalContinuousFunctionalPeak/Figure_3_FinalContinuousFunctionalPeak_multiplicative.png
+Output/Results/FiguresIntermediate/Figure_3_FinalContinuousFunctionalPeak/Figure_3_FinalContinuousFunctionalPeak_multiplicative.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/.DS_Store
+Output/Results/FiguresIntermediate/Figure_4_CV/Aux_whole_session_slopes_aligned/.DS_Store
+Output/Results/FiguresIntermediate/Figure_4_CV/Aux_whole_session_slopes_aligned/whole_session_slope_trajectory_aligned_violin_q50_bsigma5_seedstream_aligned_points.csv
+Output/Results/FiguresIntermediate/Figure_4_CV/Aux_whole_session_slopes_aligned/whole_session_slope_trajectory_aligned_violin_q50_bsigma5_seedstream_condition_events.csv
+Output/Results/FiguresIntermediate/Figure_4_CV/Aux_whole_session_slopes_aligned/whole_session_slope_trajectory_aligned_violin_q50_bsigma5_seedstream_replot.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Aux_whole_session_slopes_aligned/whole_session_slope_trajectory_aligned_violin_q50_bsigma5_seedstream_replot.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Aux_whole_session_slopes_aligned/whole_session_slope_trajectory_aligned_violin_q50_bsigma5_seedstream_target_windows.csv
+Output/Results/FiguresIntermediate/Figure_4_CV/Aux_whole_session_slopes_aligned/whole_session_slope_trajectory_aligned_violin_q50_bsigma5_seedstream.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_4_CV/Aux_whole_session_slopes_aligned/whole_session_slope_trajectory_aligned_violin_q50_bsigma5_seedstream.plotmeta.json
+Output/Results/FiguresIntermediate/Figure_4_CV/Aux_whole_session_slopes_aligned/whole_session_slope_trajectory_aligned_violin_q50_bsigma5_seedstream.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Aux_whole_session_slopes_aligned/whole_session_slope_trajectory_aligned_violin_q50_bsigma5_seedstream.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/.DS_Store
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/aux_Figure_4_CVLL_lines.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/aux_Figure_4_CVLL_lines.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/fig4_slsd_params_anesthesia.json
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/fig4_slsd_params_awake.json
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_anesthesia_2win.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_anesthesia_2win.plotmeta.json
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_anesthesia_2win.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_anesthesia_2win.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_anesthesia.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_anesthesia.plotmeta.json
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_anesthesia.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_anesthesia.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_awake.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_awake.plotmeta.json
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_awake.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_awake.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_full_w_letters.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/Figure_4_CV_full.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/panel_d_like_slope_labeled.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/panel_d_like_slope_with_naive.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector/fig4_outliers_report copy.csv
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector/fig4_outliers_report.csv
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector/outlier_anesthesia_win0011_hg_slsd_largest_rank1.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector/outlier_anesthesia_win0011_hg_slsd_largest_rank1.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector/outlier_anesthesia_win0014_hg_slsd_largest_rank2.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector/outlier_anesthesia_win0014_hg_slsd_largest_rank2.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector/outlier_awake_win0004_hg_slsd_largest_rank2.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector/outlier_awake_win0004_hg_slsd_largest_rank2.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector/outlier_awake_win0007_hg_slsd_largest_rank1.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector/outlier_awake_win0007_hg_slsd_largest_rank1.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector/outliers_report.csv
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector/run_manifest.json
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector_cvll_low2/outlier_anesthesia_win0011_cvll_slsd_smallest_rank1.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector_cvll_low2/outlier_anesthesia_win0011_cvll_slsd_smallest_rank1.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector_cvll_low2/outlier_anesthesia_win0017_cvll_slsd_smallest_rank2.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector_cvll_low2/outlier_anesthesia_win0017_cvll_slsd_smallest_rank2.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector_cvll_low2/outlier_awake_win0004_cvll_slsd_smallest_rank2.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector_cvll_low2/outlier_awake_win0004_cvll_slsd_smallest_rank2.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector_cvll_low2/outlier_awake_win0007_cvll_slsd_smallest_rank1.png
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector_cvll_low2/outlier_awake_win0007_cvll_slsd_smallest_rank1.svg
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector_cvll_low2/outliers_report.csv
+Output/Results/FiguresIntermediate/Figure_4_CV/Figure_output/outlier_inspector_cvll_low2/run_manifest.json
+Output/Results/FiguresIntermediate/Figure_5_CV/.DS_Store
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/.DS_Store
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/fig5_gt_params_anesthesia.json
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/fig5_gt_params_awake.json
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/fig5_slsd_fit_params_anesthesia.json
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/fig5_slsd_fit_params_awake.json
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/Figure_5_CV_anesthesia.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/Figure_5_CV_anesthesia.plotmeta.json
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/Figure_5_CV_anesthesia.png
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/Figure_5_CV_anesthesia.svg
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/Figure_5_CV_awake.plotdata.npz
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/Figure_5_CV_awake.plotmeta.json
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/Figure_5_CV_awake.png
+Output/Results/FiguresIntermediate/Figure_5_CV/Figure_output/Figure_5_CV_awake.svg
+Output/Results/FiguresIntermediate/Figure_7_Fig3GroundTruth_HeightGrid/Figure_7_Fig3GroundTruth.png
+Output/Results/FiguresIntermediate/Figure_7_Fig3GroundTruth_HeightGrid/Figure_7_Fig3GroundTruth.svg
+Output/Results/FiguresIntermediate/Figure_7_Fig3GroundTruth_HeightGrid/Figure_7_fig3truth_metrics.csv
+Output/Results/FiguresIntermediate/Figure_7_Fig3GroundTruth_HeightGrid/Figure_7_fig3truth_reordered_compact_v2.png
+Output/Results/FiguresIntermediate/Figure_7_Fig3GroundTruth_HeightGrid/Figure_7_fig3truth_reordered_compact_v2.svg
+Output/Results/FiguresIntermediate/Figure_7_Fig3GroundTruth_HeightGrid/Figure_7_fig3truth_reordered_compact.png
+Output/Results/FiguresIntermediate/Figure_7_Fig3GroundTruth_HeightGrid/Figure_7_fig3truth_reordered_compact.svg
+Output/Results/FiguresIntermediate/Figure_7_Fig3GroundTruth_HeightGrid/Figure_7_fig3truth_row1_components.npz
+Output/Results/FiguresIntermediate/Supp_Figure_WholeSessionSlopeTrajectory/.DS_Store
+Output/Results/FiguresIntermediate/Supp_Figure_WholeSessionSlopeTrajectory/Figure_output/supp_whole_session_slope_trajectory_from_fig4_payloads_cvll_with_without_outliers.csv
+Output/Results/FiguresIntermediate/Supp_Figure_WholeSessionSlopeTrajectory/Figure_output/supp_whole_session_slope_trajectory_from_fig4_payloads_cvll_with_without_outliers.png
+Output/Results/FiguresIntermediate/Supp_Figure_WholeSessionSlopeTrajectory/Figure_output/supp_whole_session_slope_trajectory_from_fig4_payloads_cvll_with_without_outliers.svg
+Output/Results/FiguresIntermediate/Supp_Figure_WholeSessionSlopeTrajectory/Figure_output/supp_whole_session_slope_trajectory_from_fig4_payloads_dropped_slope_points.csv
+Output/Results/FiguresIntermediate/Supp_Figure_WholeSessionSlopeTrajectory/Figure_output/supp_whole_session_slope_trajectory_from_fig4_payloads_points.csv
+Output/Results/FiguresIntermediate/Supp_Figure_WholeSessionSlopeTrajectory/Figure_output/supp_whole_session_slope_trajectory_from_fig4_payloads_removed_window_decompositions.csv
+Output/Results/FiguresIntermediate/Supp_Figure_WholeSessionSlopeTrajectory/Figure_output/supp_whole_session_slope_trajectory_from_fig4_payloads_removed_window_decompositions.png
+Output/Results/FiguresIntermediate/Supp_Figure_WholeSessionSlopeTrajectory/Figure_output/supp_whole_session_slope_trajectory_from_fig4_payloads_removed_window_decompositions.svg
+Output/Results/FiguresIntermediate/Supp_Figure_WholeSessionSlopeTrajectory/Figure_output/supp_whole_session_slope_trajectory_from_fig4_payloads.plotmeta.json
+Output/Results/FiguresIntermediate/Supp_Figure_WholeSessionSlopeTrajectory/Figure_output/supp_whole_session_slope_trajectory_from_fig4_payloads.png
+Output/Results/FiguresIntermediate/Supp_Figure_WholeSessionSlopeTrajectory/Figure_output/supp_whole_session_slope_trajectory_from_fig4_payloads.svg

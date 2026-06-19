@@ -1,0 +1,12 @@
+power_spectral_decomposition/pymc_models_preserved.py
+power_spectral_decomposition/api_preserved.py
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore cache directories
+__pycache__/
+*/__pycache__/
+*.egg-info/

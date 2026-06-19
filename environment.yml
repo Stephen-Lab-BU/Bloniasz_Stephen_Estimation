@@ -1,0 +1,49 @@
+name: SL_SpecDecomp_paper
+channels:
+  - conda-forge
+  - edeno
+dependencies:
+  # Core Python + numeric stack
+  - python>=3.10,<3.14
+  - numpy
+  - matplotlib
+  - ipykernel
+  - statsmodels
+  - scipy
+  - pandas
+  - seaborn
+  - h5py
+
+  # Probabilistic / stats stack
+  - pymc
+  - arviz
+  - pytensor
+  - pytest
+  - py
+
+  # IO / tooling / UI
+  - jupyterlab
+  - jupyterlab_widgets
+  - tqdm
+  - spectral_connectivity   # from conda-forge/edeno
+  - pip
+
+  - pip:
+      # dev / formatting tools
+      - black
+      - "black[jupyter]"
+      - pre-commit
+
+      # spectral stack
+      - spectral_connectivity          # pip version is ok; conda one is used by default
+      - git+https://github.com/bloniaszp/spectral-decomposition.git
+      - git+https://github.com/Stephen-Lab-BU/SL_specdecomp.git
+      - specparam
+
+      # JAX + external samplers (UNPINNED so pip can pick 3.13-compatible jaxlib)
+      - "jax[cpu]"
+      - "numpyro"
+      - "blackjax"
+
+      # your paper repo editable, if run from its root
+      - -e .

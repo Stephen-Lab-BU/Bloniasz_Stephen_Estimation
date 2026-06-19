@@ -1,0 +1,87 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bloniasz-stephen-estimation"
+version = "0.1.0"
+description = "Estimation experiments for neural power spectra and related signals."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  { name = "Patrick F. Bloniasz" }
+]
+keywords = ["neuroscience", "power spectrum", "spectral analysis", "multitaper", "estimation"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+dependencies = [
+  "numpy",
+  "scipy",
+  "pandas",
+  "matplotlib",
+  "seaborn",
+  "tqdm",
+  "specparam",
+  "spectral_connectivity",
+]
+
+[project.optional-dependencies]
+sl = [
+  # VCS URLs per PEP 508; pip will install directly from Git
+  "SL-specdecomp @ git+https://github.com/Stephen-Lab-BU/SL_specdecomp.git",
+  "spectral-decomposition @ git+https://github.com/bloniaszp/spectral-decomposition.git",
+]
+
+# Dev tooling
+dev = [
+  "pytest>=7",
+  "pytest-cov",
+  "ruff>=0.6",
+  "black>=24.0",
+  "mypy>=1.10",
+  "ipykernel",
+]
+
+[tool.setuptools]
+# If you're using a src/ layout, set packages.find.where = ["src"] and
+# add: [tool.setuptools.package-dir] = {"" = "src"}
+# For current layout, auto-discover from project root:
+packages = { find = {} }
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 100
+target-version = ["py39", "py310", "py311"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+select = ["E", "F", "I", "W", "UP", "B"]
+ignore = []
+exclude = [
+  ".git",
+  ".mypy_cache",
+  ".ruff_cache",
+  ".venv",
+  "build",
+  "dist",
+]
+
+[tool.ruff.isort]
+known-first-party = ["bse"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_unused_configs = true
+ignore_missing_imports = true
+strict = false

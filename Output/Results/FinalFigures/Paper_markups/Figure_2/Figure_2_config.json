@@ -1,0 +1,22 @@
+{
+  "FS": 1000,
+  "DURATION": 60.0,
+  "EXPONENT": 2.0,
+  "OFFSET": 0.5,
+  "KNEE": 90.0,
+  "PEAKS_REQUESTED": [
+    {
+      "freq": 12.0,
+      "amplitude": 0.0,
+      "sigma": 0.0
+    }
+  ],
+  "AVG_RATE": 0.0,
+  "MODE": "additive",
+  "RNG_SEED": 42,
+  "N_ITER": 50,
+  "K_TAPERS": 3,
+  "TIME_HALF_BANDWIDTH_PRODUCT": 2,
+  "FREQ_MIN": 1.0,
+  "CUTOFF": 200.0
+}
