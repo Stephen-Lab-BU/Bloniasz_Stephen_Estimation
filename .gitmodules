@@ -1,0 +1,6 @@
+[submodule "SL_specdecomp"]
+	path = SL_specdecomp
+	url = https://github.com/Stephen-Lab-BU/SL_specdecomp.git
+[submodule "src/sl-specdecomp"]
+	path = src/sl-specdecomp
+	url = https://github.com/Stephen-Lab-BU/SL_specdecomp.git
